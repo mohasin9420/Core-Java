@@ -1,0 +1,29 @@
+class downcasting 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		A obj = new B();
+		obj.show();
+		B obj1=(B)obj;
+			obj1.show();
+		A obj3=(A)obj;
+		obj3.show();
+
+	}
+}
+class A
+{
+	public void show(){
+		System.out.println("In the A Show");
+	}
+}
+class B extends A
+{
+	@Override
+		public void show(){
+		
+			System.out.println("int B");
+		}
+}
+

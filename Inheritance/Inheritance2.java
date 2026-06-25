@@ -1,0 +1,35 @@
+class Inheritance2 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		C obj = new C();
+		obj.m1(100);
+		obj.m2(200);
+		obj.m3();
+	}
+}
+class A
+{
+	int a=10;
+	public void m3(){
+		System.out.println(a);
+	}
+}
+class B extends A
+{
+	public void m1(int a){
+		
+		super.a=a;
+		System.out.println("inside m1" + a);
+	}
+}
+class C extends B
+{
+	public  void m2(int a){
+		super.a=a;
+		System.out.println("inside m1"  + a);
+	}
+
+}
+

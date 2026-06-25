@@ -1,0 +1,26 @@
+class MethodOverriding1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		B obj = new B();
+		obj.show();
+		A obj1  = new A();
+		obj1.show();
+
+	}
+}
+class A
+{
+	public void show(){
+		System.out.println("In the A Show");
+	}
+}
+class B extends A
+{
+	@Override
+		public void show(){
+		super();
+			System.out.println("int B");
+		}
+}

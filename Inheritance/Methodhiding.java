@@ -1,0 +1,26 @@
+class Methodhiding 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		B obj = new B();
+		obj.show();
+		
+	}
+}
+class A
+{
+    static void show()
+    {
+        System.out.println("A");
+    }
+}
+
+class B extends A
+{
+    static void show()
+    {
+        super.show();   //
+        System.out.println("B");
+    }
+}

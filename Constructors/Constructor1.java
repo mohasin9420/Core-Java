@@ -1,0 +1,14 @@
+class Constructor1 
+{
+	Constructor1(){
+		System.out.println("inside constructor");
+		
+	}
+	
+
+	public static void main(String[] args) 
+	{
+		System.out.println("inside main");
+		Constructor1 obj = new Constructor1();
+	}
+}

@@ -1,0 +1,34 @@
+class Railway1 {
+    static int ticketPrice = 500;
+
+    String passengerName;
+
+    static {
+        System.out.println("Railway Reservation System Started");
+    }
+
+    {
+        System.out.println("Passenger Details Verified");
+    }
+
+    Railway1(String passengerName) {
+        this.passengerName = passengerName;
+        System.out.println("Ticket Booked");
+    }
+
+    void printTicket() {
+        System.out.println("Passenger : " + passengerName);
+    }
+
+    static void showPrice() {
+        System.out.println("Ticket Price : " + ticketPrice);
+    }
+}
+class Railway
+{
+	public static void main(String args[]){
+		Railway1 obj =new Railway1("Mohasin Shaikh");
+		obj.printTicket();
+		Railway1.showPrice();
+	}
+}

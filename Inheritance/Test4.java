@@ -1,0 +1,40 @@
+class  Test4
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		C obj = new C();
+	}
+}
+class A
+{
+    A()
+    {
+		
+        System.out.println("A1");
+    }
+}
+
+class B extends A
+{
+    B()
+    {
+        this(10);
+        System.out.println("B1");
+    }
+
+    B(int a)
+    {
+        System.out.println("B2");
+    }
+}
+
+class C extends B
+{
+    C()
+    {	
+        System.out.println("C1");
+		
+	
+    }
+}

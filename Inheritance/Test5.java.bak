@@ -1,0 +1,12 @@
+class Test5 
+{
+	int a=100;
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		Test5 obj = new Test5();
+		System.out.println(obj);
+		System.out.println(obj.hashCode());
+		System.out.println(obj.toString());
+	}
+}
