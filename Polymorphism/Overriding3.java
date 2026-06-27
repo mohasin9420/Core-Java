@@ -1,4 +1,4 @@
-class Overriding1 
+class Overriding3 
 {
 	public static void main(String[] args) 
 	{
@@ -9,13 +9,13 @@ class Overriding1
 }
 class A
 {
-	void m1(){
+	static void m1(){
 		System.out.println("A");
 	}
 }
 class B extends A
 {
-	void m1(){
+	static void m1(){
 		System.out.println("B");
 	}
-}								
+}			// static method cannot inheritance 					

@@ -18,7 +18,7 @@ class A
 class B extends A
 {
     @Override
-    void 4()
+    void ()
     {
         System.out.println("B");
     }
