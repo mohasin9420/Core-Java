@@ -20,7 +20,7 @@ abstract class A
 class B extends A
 {
 	B(){
-		super();
+		//super();hv
 
 		System.out.println("in B 0 constructor ");
 	}
