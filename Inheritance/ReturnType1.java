@@ -8,7 +8,7 @@ class ReturnType1
 		
 	}
 }
-class A
+static class A
 {
     A display()
     {
