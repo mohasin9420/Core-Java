@@ -6,5 +6,6 @@ class Example15
 		
 		System.out.println(str.indexOf('a'));
 		System.out.println(str.indexOf('o'));
+		System.out.println(str.lastIndexOf('a'));
 	}
 }
