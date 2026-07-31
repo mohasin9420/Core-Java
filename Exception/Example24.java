@@ -11,7 +11,7 @@ class Example24
 		System.out.println("in the m1");
 		m2();
 	}
-	static void m2() throws InterruptedException
+	static void m2() throws InterruptedException  
 	{
 		System.out.println("in the m2");
 		m3();
@@ -22,3 +22,4 @@ class Example24
 		Thread.sleep(3000);
 	}
 }
+// File code
