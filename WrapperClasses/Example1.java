@@ -4,7 +4,7 @@ class  Example1
 	{
 		System.out.println("Hello World!");
 		int a=100;
-		Integer i=new Integer("one");
+		Integer i=new Integer("100");
 		Integer it1 = Integer.valueOf(a);
 		System.out.println(it1);
 	}

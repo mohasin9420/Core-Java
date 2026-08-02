@@ -4,7 +4,7 @@ class  Example2
 	{
 		System.out.println("Hello World!");
 		int a=100;
-		Integer i=new Integer("one"); 
+	//	Integer i=new Integer("one"); -> NumberFormatException
 		
 		System.out.println(it1);
 	}
